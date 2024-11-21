@@ -1,13 +1,26 @@
+:root {
+    --body-text: #333333;
+    --header-background: #f6f7f7;
+    --nav-font: #454545;
+    --nav-background: #e9ebeb;
+    --header: #303030;
+    --footer-background: #1b1e20;
+    --footer-head: #8f8c8f;
+    --footer-body: #ffffff;
+    --body-font: 
+}
+
 body {
     margin: 0 auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
     font-weight: bold;
+    color: var(--body-text);
 }
 
 .navbar {
     display: flex;
-    background-color: lightgrey;
+    background-color: var(--nav-background)
 }
 
 .navbar__right {
@@ -36,30 +49,26 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--nav-font);
     text-transform: uppercase;
 }
 
 input {
-    border: thin solid black;
+    border: thin solid var(--nav-font);
     border-radius: .5rem 0 0 .5rem;
     width: 300px
-}
-
-header {
-    background-color: lightgray;
 }
 
 form {
     display: flex;
     margin: .5rem;
-    border: solid thin black;
+    border: solid thin var(--nav-font);
     border-radius: .5rem;
 }
 
 button {
     color: white;
-    background-color: black;
+    background-color: var(--nav-font);
     border: none;
     display: inline-block;
     border-radius: 0 .5rem .5rem 0;
@@ -70,3 +79,28 @@ img {
     margin: 2rem;
     max-height: 2rem;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-background);
+}
+
+.header__right {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cart-icon {
+    margin: 1rem;
+}
+
+.my-cart {
+    margin: 1rem;
+}
+
+.my-cart__amount {
+    font-size: 75%;
+}
+
