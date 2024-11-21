@@ -7,15 +7,14 @@
     --footer-background: #1b1e20;
     --footer-head: #8f8c8f;
     --footer-body: #ffffff;
-    --body-font: 
+    --body-font: "Open Sans" , sans-serif;
 }
 
 body {
     margin: 0 auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1rem;
     font-weight: bold;
     color: var(--body-text);
+    font-family: var(--body-font);
 }
 
 .navbar {
@@ -67,7 +66,7 @@ form {
 }
 
 button {
-    color: white;
+    color: var(--nav-background);
     background-color: var(--nav-font);
     border: none;
     display: inline-block;
@@ -75,15 +74,11 @@ button {
     width: 2rem;
 }
 
-img {
-    margin: 2rem;
-    max-height: 2rem;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
     background-color: var(--header-background);
+    padding: 1rem;
 }
 
 .header__right {
@@ -93,7 +88,7 @@ img {
 }
 
 .cart-icon {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .my-cart {
@@ -102,5 +97,16 @@ img {
 
 .my-cart__amount {
     font-size: 75%;
+    padding-top: .5rem;
+    font-weight: lighter;
 }
+
+.fa-sharp {
+    color: var(--header-background);
+    background-color: var(--nav-font);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+
 
