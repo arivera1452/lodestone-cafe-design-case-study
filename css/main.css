@@ -192,7 +192,7 @@ header {
 }
 
 .hero-img {
-    max-width: 400px;
+    max-width: 420px;
     height: 100%;
     filter: saturate(0%);
 }
