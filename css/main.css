@@ -112,13 +112,15 @@ button {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    max-width: 900px;
     justify-content: center;
 }
 
+.panel {
+    
+}
+
 .hero__panel {
-    margin: 1px;
-    position: relative;
+    margin: 0 1px;
 }
 
 .hero-img {
@@ -130,6 +132,15 @@ button {
     filter: saturate(100%);
     transition: all .75s ease-in-out;
 } 
+
+
+.panel-title {
+    padding: .5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
 
 
 
