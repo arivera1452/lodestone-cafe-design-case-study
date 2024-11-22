@@ -110,10 +110,22 @@ header {
 }
 
 .fa-sharp {
+    position: relative;
     color: var(--header-background);
     background-color: var(--nav-font);
     padding: 1rem;
     border-radius: 50%;
+}
+
+.cart-icon__number {
+    margin-left: 2rem;
+    position: absolute;
+    padding: 0 .45rem;
+    top: 9rem;
+    background-color: white;
+    border: solid var(--body-text);
+    border-radius: 50%;
+    color: var(--body-text);
 }
 
 .hero {
@@ -164,7 +176,7 @@ footer {
 
 .footer__section {
     display: flex;
-    margin: 1.5rem;
+    margin: 3rem 1.5rem;
     flex-direction: column;
     width: 31.32%;
     float: left;
@@ -205,6 +217,15 @@ span {
 
 p {
     line-height: 1.5rem;
+}
+
+.legal {
+    background-color: var(--footer-background);
+    color: var(--footer-body);
+    text-align: center;
+    margin: 0;
+    font-size: .7rem;
+    font-weight: 400;
 }
 
 
