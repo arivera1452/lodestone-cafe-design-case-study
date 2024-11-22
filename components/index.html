@@ -14,54 +14,60 @@
 <body>
     <h1>Components Go Here</h1>
     <h2>header</h2>
-    <div class="header">
-        <div class="header__left">
-            <a href="#!"><img width="150" height="75" src="../img/lodestone-logo-small.png" alt="lodestone logo"></a>
-        </div>
-        <div class="header__right">
-            <div class="cart-icon">
-                <a href="#!"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+    <header>
+        <div class="header">
+            <div class="header__left">
+                <a href="#!"><img width="150" height="75" src="../img/lodestone-logo-small.png" alt="lodestone logo"></a>
             </div>
-            <div class="my-cart">
-                <div class="my-cart__total">Total</div>
-                <div class="my-cart__amount">&#36;0.00</div>
+            <div class="header__right">
+                <div class="cart-icon">
+                    <a href="#!"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="my-cart">
+                    <div class="my-cart__total">Total</div>
+                    <div class="my-cart__amount">&#36;0.00</div>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
     <h2>navbar</h2>
-    <div class="navbar">
-        <div class="navbar__left">
-            <ul class="navbar__list">
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">Products &#8744;</a></li>
-                <li><a href="#!">Calendar</a></li>
-                <li><a href="#!">Contact Us</a></li>
-                <li><a href="#!">More &#8744;</a></li>
-            </ul>
-        </div>
-        <div class="navbar__right">
-            <form>
-                <input placeholder="Search products..." type="text">
-                <button type="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-            <ul class="navbar__list">
-                <li><a href="#!"><i class="fa-solid fa-magnifying-glass-plus"></i></a></li>
-                <li><a href="#!"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                <li><a href="#!"><i class="fa-solid fa-user"></i></a></li>
-            </ul>
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="navbar__left">
+                <ul class="navbar__list">
+                    <li class="navbar-item"><a href="#!">Home</a></li>
+                    <li class="navbar-item"><a href="#!">Products &#8744;</a></li>
+                    <li class="navbar-item"><a href="#!">Calendar</a></li>
+                    <li class="navbar-item"><a href="#!">Contact Us</a></li>
+                    <li class="navbar-item"><a href="#!">More &#8744;</a></li>
+                </ul>
+            </div>
+            <div class="navbar__right">
+                <form>
+                    <input placeholder="Search products..." type="text">
+                    <button type="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <ul class="navbar__list">
+                    <li class="navbar-item"><a href="#!"><i class="fa-solid fa-magnifying-glass-plus"></i></a></li>
+                    <li class="navbar-item"><a href="#!"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="navbar-item"><a href="#!"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <h2>hero</h2>
     <div class="hero">
         <div clas="panel">
-           <a class="hero__panel" href="#!"><img class="hero-img" src="../img/singles.jpg" alt="magic singles"></a>
-           <h2 class="panel-title">MAGIC SINGLES</h2>
+            <a class="hero__panel" href="#!"><img class="hero-img" src="../img/singles.jpg" alt="magic singles"></a>
+            <h2 class="panel-title">MAGIC SINGLES</h2>
         </div>
         <div class="panel">
            <a class="hero__panel" href="#!"><img class="hero-img" src="../img/fdn.png" alt="foundations"></a>
+           <h2 class="panel-title">FDN SINGLES NOW AVAILABLE</h2>
         </div>
         <div class="panel">
            <a class="hero__panel" href="#!"><img class="hero-img" src="../img/event.png" alt="events"></a>
+           <h2 class="panel-title">EVENT SIGN UP</h2>
         </div>
     </div>
 </body>

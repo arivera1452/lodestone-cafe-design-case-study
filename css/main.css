@@ -17,21 +17,23 @@ body {
     font-family: var(--body-font);
 }
 
+.navbar-container {
+    background-color: var(--nav-background);
+}
+
 .navbar {
     display: flex;
-    background-color: var(--nav-background)
+    margin: 0 auto;
+    max-width: 1300px;
+    justify-content: space-between;
 }
 
 .navbar__right {
     display: flex;
-    margin: 0 auto;
-    max-width: 55rem;
 }
 
 .navbar__left {
     display: flex;
-    margin: 0 auto;
-    max-width: 55rem;
 }
 
 .navbar__list {
@@ -40,10 +42,11 @@ body {
     display: inline-flex;
     list-style: none;
     justify-content: space-around;
+    font-size: .9rem;
 }
 
-li {
-    padding: 1rem 1.5rem;
+.navbar-item {
+    padding: 1rem 1rem;
 }
 
 a {
@@ -74,11 +77,16 @@ button {
     width: 2rem;
 }
 
+header {
+    background-color: var(--header-background);
+} 
+
 .header {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: var(--header-background);
     padding: 1rem;
+    max-width: 1300px;
 }
 
 .header__right {
@@ -113,10 +121,11 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    overflow: hidden;
 }
 
 .panel {
-    
+    overflow: hidden;
 }
 
 .hero__panel {
@@ -124,22 +133,26 @@ button {
 }
 
 .hero-img {
-    max-width: 480px;
+    max-width: 400px;
+    height: 100%;
     filter: saturate(0%);
 }
 
 .hero-img:hover {
     filter: saturate(100%);
     transition: all .75s ease-in-out;
+    transform: scale(1.08);
 } 
 
 
 .panel-title {
+    margin: 1px;
     padding: .5rem;
-    background-color: black;
+    background-color: rgb(0, 0, 0, .8);
     color: white;
     text-align: center;
-    margin: 0;
+    position:relative;
+    bottom: 3.34rem;
 }
 
 
