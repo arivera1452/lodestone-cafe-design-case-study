@@ -8,13 +8,19 @@
     --footer-head: #8f8c8f;
     --footer-body: #ffffff;
     --body-font: "Open Sans" , sans-serif;
-}
+    --header-font: "Oswald" , sans-serif;
 
 body {
     margin: 0 auto;
     font-weight: bold;
     color: var(--body-text);
     font-family: var(--body-font);
+}
+
+h2 {
+    font-family:var(--header-font);
+    font-weight: 450;
+    text-transform: uppercase;
 }
 
 .navbar-container {
