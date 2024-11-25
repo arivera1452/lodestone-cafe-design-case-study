@@ -9,6 +9,7 @@
     --footer-body: #ffffff;
     --body-font: "Open Sans" , sans-serif;
     --header-font: "Oswald" , sans-serif;
+}
 
 body {
     margin: 0 auto;
@@ -17,10 +18,19 @@ body {
     font-family: var(--body-font);
 }
 
-h2 {
+.main-container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+h1,h2,h3 {
     font-family:var(--header-font);
     font-weight: 450;
     text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
 }
 
 .navbar-container {
@@ -174,7 +184,7 @@ header {
     margin-left: 2rem;
     position: absolute;
     padding: 0 .45rem;
-    top: 9rem;
+    top: 23.5rem;
     background-color: white;
     border: solid var(--body-text);
     border-radius: 50%;
@@ -245,6 +255,7 @@ footer {
 }
 
 .footer__title {
+    margin-bottom: 2.5rem;
     color: var(--footer-head);
     font-size: 15px;
 }
@@ -279,6 +290,17 @@ p {
     margin: 0;
     font-size: .7rem;
     font-weight: 400;
+}
+
+.comp-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 1300px;
+}
+
+.comp-title {
+    margin: 2rem auto;
+    max-width: 1300px;
 }
 
 
