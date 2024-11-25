@@ -204,7 +204,7 @@ header {
 }
 
 .hero__panel {
-    margin: 0 1px;
+    margin: 0 2px;
 }
 
 .hero-img {
@@ -221,7 +221,7 @@ header {
 
 
 .panel-title {
-    margin: 1px;
+    margin: 2px;
     padding: .5rem;
     background-color: rgb(0, 0, 0, .8);
     color: white;
@@ -266,7 +266,7 @@ footer {
 
 span {
     border-bottom: solid var(--nav-font);
-    padding-bottom: .5rem;
+    padding-bottom: .8rem;
 }
 
 .social {
