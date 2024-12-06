@@ -1,10 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Home Page</title>
-    </head>
-    <body>
-        <h1>Placeholder</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components | Lodestone Cafe</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48930d19ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Components Go Here</h1>
+    <h2 class="comp-title">header</h2>
+    <h3>image</h3>
+    <img class="comp-img" src="../img/main-header.png" alt="header image">
+    <h3>code</h3>
+    <header>
+        <div class="header">
+            <div class="header__left">
+                <a href="#!"><img width="150" height="75" src="../img/lodestone-logo-small.png" alt="lodestone logo"></a>
+            </div>
+            <div class="header__right">
+                <div class="cart-icon">
+                    <a href="#!"><i class="fa-sharp fa-solid fa-cart-shopping"></i><p class="cart-icon__number">0</p></a>
+                </div>
+                <div class="my-cart">
+                    <div class="my-cart__total">Total</div>
+                    <div class="my-cart__amount">&#36;0.00</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h2 class="comp-title">navbar</h2>
+    <h3>image</h3>
+    <img class="comp-img" src="../img/main-navbar.png" alt="navbar image">
+    <h3>code</h3>
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="navbar__left">
+                <ul class="navbar__list">
+                    <li class="navbar-item"><a class="navbar-link" href="#!">Home</a></li>
+                    <li class="navbar-item">
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#!">Products&#8744;</a></button>
+                            <div class="dropdown-content">
+                                <a href="#!">MAGIC SINGLES</a>
+                                <a href="#!">SEALED</a>
+                                <a href="#!">EVENT SIGN UP</a>
+                                <a href="#!">DUNGEONS & DRAGONS</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-item"><a class="navbar-link" href="#!">Calendar</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#!">Contact Us</a></li>
+                    <li class="navbar-item">
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#!">MORE&#8744;</a></button>
+                            <div class="dropdown-content">
+                                <a href="#!">D & D</a>
+                                <a href="#!">USED GAMES</a>
+                                <a href="#!">JOBS</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__right">
+                <form>
+                    <input placeholder="Search products..." type="text">
+                    <button type="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <ul class="navbar__list">
+                    <li class="navbar-item"><a class="navbar-link" href="#!"><i class="fa-solid fa-magnifying-glass-plus"></i></a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#!"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#!"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="comp-title">hero</h2>
+    <h3>image</h3>
+    <img class="comp-img" src="../img/main-section.png" alt="hero img">
+    <h3>code</h3>
+    <div class="hero">
+        <div class="panel">
+            <a class="hero__panel" href="#!"><img class="hero-img" src="../img/singles.jpg" alt="magic singles"></a>
+            <h2 class="panel-title">MAGIC SINGLES</h2>
+        </div>
+        <div class="panel">
+        <a class="hero__panel" href="#!"><img class="hero-img" src="../img/fdn.png" alt="foundations"></a>
+        <h2 class="panel-title">FDN SINGLES NOW AVAILABLE</h2>
+        </div>
+        <div class="panel">
+        <a class="hero__panel" href="#!"><img class="hero-img" src="../img/event.png" alt="events"></a>
+        <h2 class="panel-title">EVENT SIGN UP</h2>
+        </div>
+    </div>
+</body>
+<h2 class="comp-title">footer</h2>
+<h3>image</h3>
+<img class="comp-img" src="../img/footer.png" alt="footer img">
+<h3>code</h3>
+<footer>
+    <div class="footer-container">
+        <div class="footer__section">
+            <h2 class="footer__title"><span>About Us</span></h2>
+            <p><strong>Lodestone Coffee and Games</strong><br>
+            10982 Cedar Lake Road<br>
+            Minnetonka, MN 55305<br>
+            952-657-5226</p>
+
+            <p>Store Hours:<br>
+            Mon-Fri 10a-8p<br>
+            Sat-Sun 9a-8p</p>
+
+            <p><a class="footer__link" href="#!"><strong>Contact Us</strong></a></p>
+            
+            <ul class="social">
+                <li class="social-icon"><a href="#!"></a><i class="fa-brands fa-facebook"></i></li>
+                <li class="social-icon"><a href="#!"></a><i class="fa-brands fa-instagram"></i></li>
+                <li class="social-icon"><a href="#!"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title"><span>Grading & Conditions</span></h2>
+            <p>We grade every <em>Magic</em> card in our inventory carefully so you can be certain you know exactly what you’re paying for. For more details on Lodestone’s grading system, consult the <a class="footer__link" href="#!"><strong>Condition Guide.</strong></a></p>
+        </div>
+        <div class="footer__section">
+    <h2 class="footer__title"><span>Disclaimers</span></h2>
+            <a class="footer__link" href="#!"><strong>Privacy Policy</strong></a>
+            <a class="footer__link" href="#!"><strong>Terms and Conditions</strong></a>
+        </div>
+    </div>
+</footer>
+<p class="legal">© 2024 • Lodestone Coffee and Games, LLC • All Rights Reserved
+</p>
 </html>
